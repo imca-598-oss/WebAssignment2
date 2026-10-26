@@ -1,0 +1,123 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #dbeafe, #eff6ff);
+    text-align: center;
+    margin: 0;
+    padding: 30px 15px;
+    color: #1e293b;
+}
+
+h1 {
+    color: #1e3a8a;
+}
+
+h2 {
+    color: #2563eb;
+}
+
+.container {
+    background-color: white;
+    width: 450px;
+    max-width: 90%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #cbd5e1;
+}
+
+input, select {
+    display: block;
+    width: 100%;
+    padding: 11px;
+    margin: 12px auto;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"],
+.btn {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 4px;
+    width: auto;
+}
+
+input[type="submit"]:hover,
+.btn:hover {
+    background-color: #1d4ed8;
+}
+
+a {
+    color: #2563eb;
+}
+
+.stats {
+    background-color: #eff6ff;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+.stats p {
+    font-weight: bold;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    margin: 20px auto;
+    min-width: 650px;
+    width: 90%;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #eff6ff;
+}
+
+td form {
+    display: inline;
+}
+
+td input[type="submit"] {
+    background-color: #dc2626;
+    padding: 8px 12px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+}
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Oct, 2026, 5:22:08 AM
+    Author     : SCMS
+*/
+
